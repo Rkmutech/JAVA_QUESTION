@@ -4,13 +4,14 @@ import java.util.Scanner;
 
 public class question_11 {
     
-    public static void  closer_each_other(){
+    public static void  closer_each_other()
+    {
         
         
         int number1=GetInteger("Enter the Number1: ");
-        //PrintMessage(number1.toString());
+        PrintMessage(number1);
         int number2=GetInteger("Enter the Number2: ");
-        //PrintMessage(number2.toString());
+        PrintMessage(number2);
         int number3=GetInteger("Enter the Number3: ");
        // PrintMessage(number3.toString());
        int differnt1=number1 - number2;
@@ -39,6 +40,14 @@ public class question_11 {
         return temp;
     }
     public static void PrintMessage(String message)
+    {
+        System.out.println(message);
+    }
+    public static void PrintMessage(int message)
+    {
+        System.out.println(message);
+    }
+    public static void PrintMessage(float message)
     {
         System.out.println(message);
     }
